@@ -39,6 +39,10 @@ body {
 .fas {
   color: #ffbd14;
 }
+
+.shares !important {
+  font-family: 'Roboto', sans-serif;
+}
 /*---------------*/
 
 
@@ -140,7 +144,6 @@ body {
 
   .d-block {
     max-width: 100%;
-    //max-height: 100%;
   }
 
   .news-h4 {
@@ -156,6 +159,8 @@ body {
 
 /*FOOTER STYLES*/
 .footer {
-  height: 10vh;
+  height: 17vh;
+  display: flex;
+  justify-content: space-around;
 }
 /*---------------*/
