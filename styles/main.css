@@ -1,31 +1,7 @@
-/* --------------------------------------- */
-.red {
-  background-color: red;
-  height: 100px;
-  border: 1px solid black;
-}
-
-.green {
-  background-color: green;
-  height: 100px;
-  border: 1px solid black;
-}
-
-.blue {
-  background-color: blue;
-  height: 100px;
-  border: 1px solid black;
-}
-/* --------------------------------------- */
-
 /*MAIN STYLES*/
 * {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-}
-
-body {
-  //background-color: #ffd9b6;
 }
 
 .upper {
@@ -39,15 +15,23 @@ body {
 .fas {
   color: #ffbd14;
 }
+
+.navbar-toggler {
+  max-height: 7vh;
+}
+
+  .navbar-toggler-icon {
+    max-height: 4vh;
+  }
 /*---------------*/
 
 
 /*HEADER STYLES*/
 .logo {
-  height: 7vh;
+  min-height: 7vh;
   display: inline-flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
 }
 
   .logo-i {
@@ -55,15 +39,15 @@ body {
   }
 
 .menu-1 {
-  height: 7vh;
-  display: inline-flex;
+  min-height: 7vh;
+  display: flex;
   text-transform: uppercase;
   align-items: center;
   justify-content: center;
 }
 
 .social {
-  height: 7vh;
+  min-height: 7vh;
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
@@ -106,14 +90,14 @@ body {
 }
 
   .navbar-light {
-    height: 7vh;
+    min-height: 7vh;
   }
 /*---------------*/
 
 
 /*WIDGETS/HOT STYLES*/
 .widgets {
-  height: 60vh;
+  min-height: 60vh;
 }
 
   .cards-h4 {
@@ -135,7 +119,8 @@ body {
 
 /*LAST NEWS STYLES*/
 .carousel-item {
-  height: 47vh;
+  min-height: 10vh;
+  max-height: 30vh;
 }
 
   .d-block {
@@ -155,7 +140,7 @@ body {
 
 /*FOOTER STYLES*/
 .footer {
-  height: 17vh;
+  min-height: 17vh;
   display: flex;
   justify-content: space-around;
 }
